@@ -1,0 +1,29 @@
+{
+  "books": [
+    {
+      "id": "iEu0BykU",
+      "title": "The Little Book of Semaphores",
+      "author": "Allen B. Downey"
+    },
+    {
+      "id": "0kFaJHB2",
+      "title": "Programing Pearl",
+      "author": "John Bentley"
+    },
+    {
+      "id": "ukjXyUuM",
+      "title": "The elements of programing style",
+      "author": "Brian W. Kerigan and Phillip J. Plauger"
+    }
+  ],
+  "planets": [
+    {
+      "id": "ukjXyUuM",
+      "keplerName": "Kepler-1410 b"
+    },
+    {
+      "id": "iEu0BykU",
+      "keplerName": "Kepler-1410 c"
+    }
+  ]
+}

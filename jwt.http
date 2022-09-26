@@ -1,0 +1,27 @@
+GET http://localhost:8080/planets
+Authorization: Beaer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InBodW9uZyIsImlhdCI6MTY2MzgxOTAwMSwiZXhwIjoxNjYzODE5MDYxfQ.BfslG3Tg-VPLG047J8YEOBKAgDaeSfb1Y1DqebLfDLI
+
+###
+
+POST http://localhost:8081/login
+Content-Type: application/json
+
+{
+    "username" : "phuong"
+}
+
+###
+POST http://localhost:8081/refreshToken
+Content-Type: application/json
+
+{
+    "token" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InBodW9uZyIsImlhdCI6MTY2Mzc1MzEwMH0.r8mDD0VjLUK7CXtXcQ9MFtPzoURm_1DK4IBCzW7sO5s"
+}
+
+###
+POST http://localhost:8081/logout
+Content-Type: application/json
+
+{
+    "token" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InBodW9uZyIsImlhdCI6MTY2Mzc1MzEwMH0.r8mDD0VjLUK7CXtXcQ9MFtPzoURm_1DK4IBCzW7sO5s"
+}
